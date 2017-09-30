@@ -13,7 +13,6 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(phrase)
-  binding.pry
   if(phrase == uppercase)
     puts "NO, NOT SINCE 1938!"
   elsif(phrase == "I LOVE YOU GRANDMA!")
@@ -21,5 +20,5 @@ def speak_to_grandma(phrase)
   else
     puts "HUH?! SPEAK UP, SONNY!"
   end
-
+  binding.pry
 end
