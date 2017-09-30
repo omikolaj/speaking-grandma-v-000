@@ -13,7 +13,7 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 require 'pry'
 def speak_to_grandma(phrase)
-  if(phrase == phrase.uppercase)
+  if(phrase.uppercase == phrase)
     puts "NO, NOT SINCE 1938!"
   elsif(phrase == "I LOVE YOU GRANDMA!")
     puts "I LOVE YOU TOO PUMPKIN!"
